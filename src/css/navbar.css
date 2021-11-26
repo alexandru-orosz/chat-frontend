@@ -1,0 +1,49 @@
+:root {
+    --black: #1a1a1a;
+    --dark-grey: #212121;
+    --light-grey: #353535;
+    --white: #cfcfcf;
+}
+
+.navbar {
+    background-color: var(--black);
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.navbar-container {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-buttons-container {
+    width: 218px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-button-container {
+    right: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.app-label {
+    margin-left: 20px;
+}
+
+
+
+
+

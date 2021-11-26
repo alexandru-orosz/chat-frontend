@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import 'home.css';
+@import 'login.css';
+@import 'signup.css';
+@import 'buttons.css';
+@import 'navbar.css';
+@import 'chat.css';
+@import 'message-list.css';
+@import 'message.css';
+@import 'send-message.css';
+
+
+:root {
+    --black: #1a1a1a;
+    --dark-grey: #212121;
+    --light-grey: #353535;
+    --white: #cfcfcf;
+}
+
+*, *::before, *::after {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--dark-grey);
+    height: 100%;
+}
+
+a, p, h1, h2, h3 {
+    color: var(--white);
+}

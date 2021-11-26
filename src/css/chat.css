@@ -1,0 +1,23 @@
+.chat {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    
+    width: 900px;
+    height: 750px;
+    background-color: var(--background);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+
+.message-chat {
+    width: 100%;
+    overflow: hidden;
+}
+
+

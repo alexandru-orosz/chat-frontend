@@ -1,0 +1,43 @@
+:root {
+    --black: #1a1a1a;
+    --dark-grey: #212121;
+    --light-grey: #353535;
+    --hover-primary: #949494;
+    --white: #cfcfcf;
+}
+
+.btn {
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background-color: var(--light-grey);
+    color: var(--hover-primary);
+    cursor: default;
+}
+
+
+.btn-primary {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.btn-primary:hover:enabled {
+    background-color: var(--hover-primary);
+}
+
+.btn-danger {
+    color: white;
+    background-color: hsl(0, 100%, 50%); 
+}
+
+.btn-danger:hover {
+    background-color: hsl(0, 100%, 35%);
+}

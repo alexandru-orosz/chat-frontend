@@ -1,0 +1,19 @@
+:root {
+    --background: #292929;
+}
+
+.signup {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 43px;
+
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    
+    width: 420px;
+    height: 300px;
+    background-color: var(--background);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
