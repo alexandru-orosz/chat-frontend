@@ -48,7 +48,7 @@ export default function SendMessage() {
                     handleSendMessage(message)
                 }}
             > 
-                    <IoIcons.IoMdSend />
+                <IoIcons.IoMdSend />
             </button>
             <button 
                 className="send-attachment-button btn-info"
@@ -57,7 +57,7 @@ export default function SendMessage() {
                     handleSendImage(message)
                 }}
             > 
-                    <ImIcons.ImAttachment />
+                <ImIcons.ImAttachment />
             </button>
         </div>
     )

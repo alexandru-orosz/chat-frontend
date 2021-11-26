@@ -42,9 +42,9 @@ export default function Chat() {
         <ChatContext.Provider value={chatContextValue}>
             <div className='chat'>
                 <div className='message-chat'>
-                        <MessageList 
-                            messages={messages}
-                        />
+                    <MessageList 
+                        messages={messages}
+                    />
                 </div>
                 <SendMessage />
             </div>
